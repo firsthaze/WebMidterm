@@ -1,0 +1,70 @@
+body{
+  background-color: #000000;
+}
+
+#backgroundset{
+  width:1280px;
+  background-color: #000000;
+}
+
+#logo{
+  margin-left: 506px;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+#mainpic{
+   width:1280px;
+   margin-top: 0px;
+   display: inline-block;
+   height:241px;
+}
+
+#sub{
+  width:1280px;
+  height:598px;
+}
+
+#sidebar{
+  width:260px;
+  height :488px;
+  margin-top: 110px;
+  margin-left: 36px;
+  display: inline-block;
+  float: left;
+}
+
+#product_picture{
+  width:880px;
+  height:488px;
+  margin-top: 110px;
+  margin-left: 55px;
+  display: inline-block;
+  float: left;
+}
+
+#sub_navigation{
+  width:1280px;
+  height:480px;
+  margin-top: 0px;
+  display: inline-block;
+}
+
+#shop1{
+  margin-left: 36px;
+}
+
+.sub{
+  width: 1280px;
+  height:140px;
+  margin-top: 100px;
+  display: inline-block;
+  float: left;
+}
+
+.shop{
+  width:260px;
+  margin-left: 54px;
+  display: inline-block;
+  float: left;
+}
