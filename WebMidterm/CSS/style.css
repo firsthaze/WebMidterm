@@ -4,6 +4,8 @@ body{
 
 #backgroundset{
   width:1280px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #000000;
 }
 
@@ -14,7 +16,8 @@ body{
 }
 
 #mainpic{
-   width:1280px;
+
+   width:100%;
 }
 
 #shop1{
