@@ -7,7 +7,7 @@
 </head>
 <body>
 <div id = "backgroundset">
-  <img id = "logo" src = "assets/Logo.png">
+  <img id = "logo" src = "assets/1423058557717.gif">
 <div>
   <img id ="mainpic" src="assets/mainpic.jpg">
 </div>
