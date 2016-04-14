@@ -68,3 +68,13 @@ body{
   display: inline-block;
   float: left;
 }
+.estimate{
+  color: white;
+  padding-left: 10px;
+}
+footer{
+  float: left;
+}
+.displaynone{
+  display: none;
+}
