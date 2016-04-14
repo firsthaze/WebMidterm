@@ -1,0 +1,36 @@
+body{
+  background-color: #000000;
+}
+
+#backgroundset{
+  width:1280px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #000000;
+}
+
+#logo{
+  margin-left: 506px;
+  margin-top: 62px;
+  display: inline-block;
+}
+
+#mainpic{
+
+   width:100%;
+}
+
+#shop1{
+  margin-left: 36px;
+}
+
+.sub{
+  width: 1280px;
+  height:52px;
+  margin-top: 46px;
+}
+
+.shop{
+  width:260px;
+  margin-left: 54px;
+}
