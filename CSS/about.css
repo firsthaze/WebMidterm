@@ -15,3 +15,46 @@
    display: inline-block;
    height:241px;
 }
+
+#sub_about{
+  width: 1280px;
+  height: 795px;
+  margin-top: 90px;
+  display: inline-block;
+}
+
+#side_bar{
+  margin-left: 40px;
+  width:260px;
+  height:795px;
+  display: inline-block;
+  float: left;
+}
+.us{
+width:890px;
+height:306px;
+display: inline-block;
+float: left;
+margin-left: 54px;
+margin-bottom: 186px;
+}
+
+#us_pic{
+  width:366px;
+  height:302px;
+  display: inline-block;
+  float:left;
+  margin: 0px;
+}
+
+#us_intro{
+  width:466px;
+  height:302px;
+  display: inline-block;
+  float:left;
+  margin-left: 54px;
+}
+
+#btn_us{
+  margin-bottom: 0px;
+}
