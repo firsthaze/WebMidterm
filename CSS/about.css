@@ -1,0 +1,17 @@
+#backgroundset{
+  width:1280px;
+  background-color: #000000;
+}
+
+#logo{
+  margin-left: 506px;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+#mainpic{
+   width:1280px;
+   margin-top: 0px;
+   display: inline-block;
+   height:241px;
+}
