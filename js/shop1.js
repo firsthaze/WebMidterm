@@ -7,9 +7,12 @@ var main = function() {
     number4: 0,
     number5: 0
   });*/
+  $( ".content" ).hover(function() {
+    $(this).toggleClass("rightMove");
+  });
   $(".estimate").hide();
   myDataRef.child("rate").on('value', function (snapshot) {
-var message = snapshot.val();
+var message = snapshot.val();2
 var counting1 = message.number1;
 var counting2 = message.number2;
 var counting3 = message.number3;
