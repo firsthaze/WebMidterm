@@ -1,0 +1,83 @@
+body{
+  background-color: #000000;
+  margin: 0;
+}
+
+.backgroundset{
+  width:1280px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #000000;
+}
+
+#logo{
+
+  margin-left: 460px;
+  width: 350px;
+  height: 300px;
+}
+
+#mainpic{
+   width:1280px;
+   margin-top: 0px;
+  display: block;
+  height:241px;
+}
+
+.link{
+  margin-top: 10px;
+  float: left;
+  width: 25%;
+  font-family:Ravie;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  text-align:center;
+}
+
+.borders{
+background: black;
+width:1280px;
+position: absolute;
+height:50px;
+margin-top: -241px;
+opacity: 0.87;
+}
+
+#side_bar{
+  width: 260px;
+  height:488px;
+  margin:30px;
+  display: inline-block;
+  float: left;
+  border: 2px solid red;
+}
+
+#side_bar p{
+  color: #FFFFFF;
+  font-family: 微軟正黑體;
+  font-size: 20px;
+}
+
+#title{
+  text-align: center;
+}
+
+.line{
+  border : 1px solid #FFFFFF;
+  width: 60%;
+  margin-left: 20%;
+}
+
+#list{
+  width: 550px;
+  display:inline-block;
+  float: left;
+  margin-top: 60px;
+  margin-left: 200px;
+}
+
+#list p{
+  color:white;
+  font-size: 50px;
+}
