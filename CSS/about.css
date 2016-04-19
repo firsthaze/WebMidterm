@@ -1,0 +1,75 @@
+body{
+  background-color: #000000;
+  margin: 0;
+}
+
+.backgroundset{
+  width:1280px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #000000;
+}
+
+#logo{
+  margin-left: 460px;
+  width: 350px;
+  height: 300px;
+}
+
+#mainpic{
+   width:1280px;
+   margin-top: 0px;
+  display: block;
+  height:241px;
+}
+
+#sub_about{
+  width: 1280px;
+  height:488px;
+  margin-top:80px;
+  display: inline-block;
+  float: left;
+}
+
+#side_bar{
+  width: 260px;
+  height:488px;
+  margin:0;
+  display: inline-block;
+  float: left;
+  border: 2px solid #FFFFFF;
+}
+
+#side_bar p{
+  color: #FFFFFF;
+  font-family: 微軟正黑體;
+  font-size: 20rpx;
+}
+
+#title{
+  text-align: center;
+}
+#concept{
+  width: 880px;
+  height:488px;
+  margin-left: 55px;
+  display: inline-block;
+  float: left;
+}
+
+.line{
+  border : 1px solid #FFFFFF;
+  width: 60%;
+  margin-left: 20%;
+}
+
+#introduce{
+  width:400px;
+  heright:350px;
+  margin-left: 300px;
+  display: inline-block;
+}
+
+#concept p{
+  color: #FFFFFF;
+}

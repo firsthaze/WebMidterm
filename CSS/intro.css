@@ -12,6 +12,8 @@ body{
   margin-left: 506px;
   margin-top: 30px;
   display: inline-block;
+  width: 250px;
+  height: 200px
 }
 
 #mainpic{

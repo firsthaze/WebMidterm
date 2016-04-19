@@ -10,14 +10,14 @@ body{
 }
 
 #logo{
-  margin-left: 506px;
-  margin-top: 62px;
-  display: inline-block;
+  margin-left: 460px;
+  width: 350px;
+  height: 300px;
 }
-
 #mainpic{
-
    width:100%;
+   height: 450px;
+   display: block;
 }
 
 #shop1{
@@ -33,4 +33,38 @@ body{
 .shop{
   width:260px;
   margin-left: 54px;
+}
+
+.borders{
+background: red;
+width:1280px;
+position: absolute;
+height:50px;
+margin-top: -450px;
+opacity: 0.9;
+}
+
+.link{
+  margin-top: 10px;
+  float: left;
+  width: 25%;
+  font-family:Ravie;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  text-align:center;
+}
+footer{
+  color: white;
+}
+.copy{
+  margin-left: 300px;
+  float:left;
+}
+.designer{
+  margin-right: 300px;
+  float:right;
+}
+.btn_line{
+  border:3px solid red;
 }

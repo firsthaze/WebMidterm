@@ -60,12 +60,11 @@ body{
 
 .borders{
 background: black;
- width:1280px;
+width:1280px;
 position: absolute;
-    height:50px;
-    margin-top: -241px;
-    opacity: 0.87;
-
+height:50px;
+margin-top: -241px;
+opacity: 0.87;
 }
 
 
