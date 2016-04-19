@@ -9,17 +9,17 @@ body{
 }
 
 #logo{
+
   margin-left: 460px;
   width: 350px;
   height: 300px;
 }
 
-
 #mainpic{
    width:1280px;
    margin-top: 0px;
-   display: inline-block;
-   height:241px;
+  display: block;
+  height:241px;
 }
 
 #sub_about{
@@ -96,15 +96,6 @@ border:2px solid #FFFFFF;
   margin-bottom: 0px;
 }
 
-.borders{
-background: black;
-width:1280px;
-position: absolute;
-height:50px;
-margin-top: -251px;
-opacity: 0.87;
-}
-
 .link{
   margin-top: 10px;
   float: left;
@@ -114,4 +105,13 @@ opacity: 0.87;
   color: white;
   font-size: 20px;
   text-align:center;
+}
+
+.borders{
+background: black;
+width:1280px;
+position: absolute;
+height:50px;
+margin-top: -241px;
+opacity: 0.87;
 }

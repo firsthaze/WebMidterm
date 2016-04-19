@@ -1,12 +1,6 @@
 var main = function() {
   var myDataRef = new Firebase('https://ratingstar.firebaseio.com/');
-  /*myDataRef.child("rate2").set({
-    number1: 0,
-    number2: 0,
-    number3: 0,
-    number4: 0,
-    number5: 0
-  });*/
+
   $(".link").mouseover(function(){
     $(this).animate({
 

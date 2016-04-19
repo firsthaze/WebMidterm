@@ -2,36 +2,85 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="CSS/shop1style.css">
+  <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+  <script src="js/shop8.js"></script>
   <title>Document</title>
 </head>
 <body>
-  <div id = "backgroundset">
+  <div class = "backgroundset">
     <img id = "logo" src = "assets/Logo.png">
     <div>
-      <img id ="mainpic" src="assets/mainpic.jpg">
+      <a href="index.html"><img id ="mainpic" src="assets/mainpic.jpg"></a>
     </div>
-    <div id = "sub">
-      <div id= "sidebar">
+    <div class = "borders">
+       <a href="aboutus.html"><p class="link">ABOUT US</p></a>
+       <a href="link.html"><p class="link">FRIENDSHIP LINK</p></a>
+       <a href="introduction.html"><p class="link">INTRODUCTION</p></a>
+       <a href="contact.html"><p class="link">CONTACT US</p></a>
+    </div>
 
-      </div>
-      <div id="product">
-        <img id ="product_picture" src="assets/mainpic.jpg">
-      </div>
-    </div>
     <div id ="sub_navigation">
       <div class="sub">
         <div>
-          <a href=""><img  class = "shop"  id= "shop1"src="assets/pic5.jpg"></a>
-          <a href=""><img class = "shop" src="assets/pic4.jpg"></a>
-          <a href=""><img class = "shop" src="assets/pic4.jpg"></a>
-          <a href=""><img class = "shop" src="assets/pic4.jpg"></a>
+          <a href="shop1.html" style="text-decoration:none" class = "a"><img src="assets/tian.jpg" class = "shop"><p class="content">天津蔥油餅</p></a>
+          <a href="shop2.html" style="text-decoration:none" class = "a"><img src="assets/su.jpg" class = "shop" ><p class="content">素還真</p></a>
+          <a href="shop3.html" style="text-decoration:none" class = "a"><img src="assets/jin.jpg" class = "shop" ><p class="content">金盃美而美</p></a>
+          <a href="shop4.html" style="text-decoration:none" class = "a"><img src="assets/hk.jpg" class = "shop" ><p class="content">
+香港富豪燒臘快餐</p></a>
         </div>
       </div>
-    <div id = "board">
-      
+      <div id="product">
+        <img id ="product_picture" src="assets/shop8.jpg">
+      </div>
     </div>
 
-    </div>
+  <div class= "sidebar">
+    <p id="title">
+      好地方快餐坊
+      <div class = "line">
+      </div>
+    </p>
+    <p>
+     且 看 那 忙 學 生 ， 平 生 從 不 準 時
+     ， 待 到 午 飯 時 間 十 分 後 方 才 下 樓 搶 食 ，
+      那 個 人 多 ， 人 多 啊 ！
+    </p>
+    <p>
+      且 說 個 大 餐 廳 名 好 地 方 ， 想 當 初 停 止 營 業 ， 眾 學 生 哀 ，
+      哀 啊 ！ 各 個 手 足 無 措 ， 好 似 老 母 跟 好 地 方 一 起 被 打 包 搬 去 。
+    </p>
+    <p>
+    現 在 可 好 ， 好 地 方 原 地 重 生 ， 學 生 手 握 百 元 大 鈔 ，
+    狼 上 疊 著 虎 豹 一 個 勁 的 往 那 排 啊 ！ 說 個 打 拋 豬 肉 飯 ，
+    那 可 是 名 不 虛 傳 ！
+    </p>
+    <p>
+      有 個 同 學 他 不 信 邪 不 能 吃 辣 偏 要 嘗 試 ，
+       回 家 可 有 的 他 受 了 ， 菊 花 苦 ， 苦 啊 ！
+    </p>
+    <p>
+    還 有 那 塔 塔 雞 排 飯 ， 那 白 色 美 乃 滋 酸 辣 ，
+    雞 腿 排 上 豔 抹 個 ， 那 可 珍 饈 啊 ！ 千 萬 不 要 錯 過 ！
+    </p>
   </div>
+    </div>
+  <footer>
+    <div class="score"><p>請評分 :</p></div>
+    <button class="button" id="rate1" style="background-image:url('assets/star1.png')"></button>
+    <button class="button buttonMargin" id="rate2" style="background-image:url('assets/star2.png')"></button>
+    <button class="button buttonMargin" id="rate3" style="background-image:url('assets/star3.png')"></button>
+    <button class="button buttonMargin" id="rate4" style="background-image:url('assets/star4.png')"></button>
+    <button class="button buttonMargin" id="rate5" style="background-image:url('assets/star5.png')"></button>
+    <div class ="estimate">
+    <img src="assets/star1.png" alt=""><nobr id="count1">waiting for estimate</nobr>
+    <img src="assets/star2.png" alt=""><nobr id="count2">waiting for estimate</nobr>
+    <img src="assets/star3.png" alt=""><nobr id="count3">waiting for estimate</nobr>
+    <img src="assets/star4.png" alt=""><nobr id="count4">waiting for estimate</nobr>
+    <img src="assets/star5.png" alt=""><nobr id="count5">waiting for estimate</nobr></div>
+
+
+  </footer>
 </body>
 </html>

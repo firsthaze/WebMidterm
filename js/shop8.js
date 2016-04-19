@@ -1,12 +1,5 @@
 var main = function() {
   var myDataRef = new Firebase('https://ratingstar.firebaseio.com/');
-  /*myDataRef.child("rate1").set({
-    number1: 0,
-    number2: 0,
-    number3: 0,
-    number4: 0,
-    number5: 0
-  });*/
 
   $(".link").mouseover(function(){
     $(this).animate({
@@ -25,7 +18,7 @@ var main = function() {
     $(this).toggleClass("rightMove");
   });
   $(".estimate").hide();
-  myDataRef.child("rate1").on('value', function (snapshot) {
+  myDataRef.child("rate8").on('value', function (snapshot) {
 var message = snapshot.val();
 
 var counting1 = message.number1;
@@ -40,31 +33,31 @@ $('#count4').html(counting4);
 $('#count5').html(counting5);
 $('#rate1').click(function(){
   counting1 = counting1 + 1;
-  myDataRef.child("rate1").update({number1: counting1});
+  myDataRef.child("rate8").update({number1: counting1});
   $('#count1').html(counting1);
   close();
 });
 $('#rate2').click(function(){
   counting2 = counting2 + 1;
-  myDataRef.child("rate1").update({number2: counting2});
+  myDataRef.child("rate8").update({number2: counting2});
   $('#count2').html(counting2);
   close();
 });
 $('#rate3').click(function(){
   counting3 = counting3 + 1;
-  myDataRef.child("rate1").update({number3: counting3});
+  myDataRef.child("rate8").update({number3: counting3});
   $('#count3').html(counting3);
   close();
 });
 $('#rate4').click(function(){
   counting4 = counting4 + 1;
-  myDataRef.child("rate1").update({number4: counting4});
+  myDataRef.child("rate8").update({number4: counting4});
   $('#count4').html(counting4);
   close();
 });
 $('#rate5').click(function(){
   counting5 = counting5 + 1;
-  myDataRef.child("rate1").update({number5: counting5});
+  myDataRef.child("rate8").update({number5: counting5});
   $('#count5').html(counting5);
   close();
 });

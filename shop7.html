@@ -2,36 +2,85 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="CSS/shop1style.css">
+  <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+  <script src="js/shop7.js"></script>
   <title>Document</title>
 </head>
 <body>
-  <div id = "backgroundset">
+  <div class = "backgroundset">
     <img id = "logo" src = "assets/Logo.png">
     <div>
-      <img id ="mainpic" src="assets/mainpic.jpg">
+      <a href="index.html"><img id ="mainpic" src="assets/mainpic.jpg"></a>
     </div>
-    <div id = "sub">
-      <div id= "sidebar">
+    <div class = "borders">
+       <a href="aboutus.html"><p class="link">ABOUT US</p></a>
+       <a href="link.html"><p class="link">FRIENDSHIP LINK</p></a>
+       <a href="introduction.html"><p class="link">INTRODUCTION</p></a>
+       <a href="contact.html"><p class="link">CONTACT US</p></a>
+    </div>
 
-      </div>
-      <div id="product">
-        <img id ="product_picture" src="assets/mainpic.jpg">
-      </div>
-    </div>
     <div id ="sub_navigation">
       <div class="sub">
         <div>
-          <a href=""><img  class = "shop"  id= "shop1"src="assets/pic5.jpg"></a>
-          <a href=""><img class = "shop" src="assets/pic4.jpg"></a>
-          <a href=""><img class = "shop" src="assets/pic4.jpg"></a>
-          <a href=""><img class = "shop" src="assets/pic4.jpg"></a>
+          <a href="shop1.html" style="text-decoration:none" class = "a"><img src="assets/tian.jpg" class = "shop"><p class="content">天津蔥油餅</p></a>
+          <a href="shop2.html" style="text-decoration:none" class = "a"><img src="assets/su.jpg" class = "shop" ><p class="content">素還真</p></a>
+          <a href="shop3.html" style="text-decoration:none" class = "a"><img src="assets/jin.jpg" class = "shop" ><p class="content">金盃美而美</p></a>
+          <a href="shop4.html" style="text-decoration:none" class = "a"><img src="assets/hk.jpg" class = "shop" ><p class="content">
+香港富豪燒臘快餐</p></a>
         </div>
       </div>
-    <div id = "board">
-      
+      <div id="product">
+        <img id ="product_picture" src="assets/shop7.jpg">
+      </div>
     </div>
 
-    </div>
+  <div class= "sidebar">
+    <p id="title">
+      63牛排小火鍋
+      <div class = "line">
+      </div>
+    </p>
+    <p>
+     星 光 九 五 牛 排 店 閉 館 已 有 一 年 餘 了 ，
+      肥 宅 最 不 能 忘 記 的 是 那 份 牛 排 。
+    </p>
+    <p>
+      那 年 ， 牛 排 館 收 了 ， 正 是 禍 不 單 行 的 日 子 ， 肥 宅 挺 著 大 肚 楠 ，
+     很 是 慘 淡 ， 打 算 自 個 尋 找 下 一 家 平 價 牛 排 。
+    </p>
+    <p>
+      另 一 個 肥 宅 朋 友 獲 得 消 息 ，
+      說 是 六 教 地 下 有 家 新 平 價 牛 排 館 ， 他 自 個 去 探 個 虛 實 。
+    </p>
+    <p>
+      六 教 上 下 四 層 甚 是 累 人 ， 肥 宅 身 子 寬 更 費 事 些 ，
+      看 著 肥 宅 下 樓 後 ， 肥 胖 的 身 軀 努 力 的 往 上 抬 ，
+       我 的 淚 很 快 地 流 下 來 。
+    </p>
+    <p>
+      我 趕 緊 拭 乾 了 淚 ， 聽 他 說 些 喜 訊 ， 且 陪 他 下 樓 吃 吃 ， 我 吃 到 一 半 ，
+       又 看 見 那 肥 胖 的 油 衣 荷 葉 邊 ，
+        唉 ， 不 知 何 時 才 能 恢 復 食 慾 ！
+    </p>
   </div>
+    </div>
+  <footer>
+    <div class="score"><p>請評分 :</p></div>
+    <button class="button" id="rate1" style="background-image:url('assets/star1.png')"></button>
+    <button class="button buttonMargin" id="rate2" style="background-image:url('assets/star2.png')"></button>
+    <button class="button buttonMargin" id="rate3" style="background-image:url('assets/star3.png')"></button>
+    <button class="button buttonMargin" id="rate4" style="background-image:url('assets/star4.png')"></button>
+    <button class="button buttonMargin" id="rate5" style="background-image:url('assets/star5.png')"></button>
+    <div class ="estimate">
+    <img src="assets/star1.png" alt=""><nobr id="count1">waiting for estimate</nobr>
+    <img src="assets/star2.png" alt=""><nobr id="count2">waiting for estimate</nobr>
+    <img src="assets/star3.png" alt=""><nobr id="count3">waiting for estimate</nobr>
+    <img src="assets/star4.png" alt=""><nobr id="count4">waiting for estimate</nobr>
+    <img src="assets/star5.png" alt=""><nobr id="count5">waiting for estimate</nobr></div>
+
+
+  </footer>
 </body>
 </html>

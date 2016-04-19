@@ -2,36 +2,74 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="CSS/shop1style.css">
+  <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+  <script src="js/shop5.js"></script>
   <title>Document</title>
 </head>
 <body>
-  <div id = "backgroundset">
+  <div class = "backgroundset">
     <img id = "logo" src = "assets/Logo.png">
     <div>
-      <img id ="mainpic" src="assets/mainpic.jpg">
+      <a href="index.html"><img id ="mainpic" src="assets/mainpic.jpg"></a>
     </div>
-    <div id = "sub">
-      <div id= "sidebar">
+    <div class = "borders">
+       <a href="aboutus.html"><p class="link">ABOUT US</p></a>
+       <a href="link.html"><p class="link">FRIENDSHIP LINK</p></a>
+       <a href="introduction.html"><p class="link">INTRODUCTION</p></a>
+       <a href="contact.html"><p class="link">CONTACT US</p></a>
+    </div>
 
-      </div>
-      <div id="product">
-        <img id ="product_picture" src="assets/mainpic.jpg">
-      </div>
-    </div>
     <div id ="sub_navigation">
       <div class="sub">
         <div>
-          <a href=""><img  class = "shop"  id= "shop1"src="assets/pic5.jpg"></a>
-          <a href=""><img class = "shop" src="assets/pic4.jpg"></a>
-          <a href=""><img class = "shop" src="assets/pic4.jpg"></a>
-          <a href=""><img class = "shop" src="assets/pic4.jpg"></a>
+          <a href="shop1.html" style="text-decoration:none" class = "a"><img src="assets/tian.jpg" class = "shop"><p class="content">天津蔥油餅</p></a>
+          <a href="shop2.html" style="text-decoration:none" class = "a"><img src="assets/su.jpg" class = "shop" ><p class="content">素還真</p></a>
+          <a href="shop3.html" style="text-decoration:none" class = "a"><img src="assets/jin.jpg" class = "shop" ><p class="content">金盃美而美</p></a>
+          <a href="shop4.html" style="text-decoration:none" class = "a"><img src="assets/hk.jpg" class = "shop" ><p class="content">
+香港富豪燒臘快餐</p></a>
         </div>
       </div>
-    <div id = "board">
-      
+      <div id="product">
+        <img id ="product_picture" src="assets/shop5.jpg">
+      </div>
     </div>
 
-    </div>
+  <div class= "sidebar">
+    <p id="title">
+      拌伴，極好食
+      <div class = "line">
+      </div>
+    </p>
+    <p>
+等 待 造 就 ， 不 凡 。 是 什 麼 在 我 的 耳 輕 語 ？
+ 是 什 麼 在 我 的 機 安 伴 ？ </p>
+    <p>
+      啊 ！ 那 虛 無 縹 緲 卻 又 安 撫 人 心 ；
+       在 失 去 連 結 的 眾 人 心 中 串 起 聯 繫 ， 那 強 勁 。
+    </p>
+    <p>聯 繫 間 ， 時 光 飛 速 ； 彈 指 間 ， 餐 點 出 山 。
+      那 久 待 的 起 司 遍 尋 那 安 身 的 銀 鍋 ；
+       那 紅 烈 的 椒 火 征 服 那 倔 強 的 湖 神 。 螢 幕 所 映 之 處 ， 處 處 飄 香 。
+</p>
   </div>
+    </div>
+  <footer>
+    <div class="score"><p>請評分 :</p></div>
+    <button class="button" id="rate1" style="background-image:url('assets/star1.png')"></button>
+    <button class="button buttonMargin" id="rate2" style="background-image:url('assets/star2.png')"></button>
+    <button class="button buttonMargin" id="rate3" style="background-image:url('assets/star3.png')"></button>
+    <button class="button buttonMargin" id="rate4" style="background-image:url('assets/star4.png')"></button>
+    <button class="button buttonMargin" id="rate5" style="background-image:url('assets/star5.png')"></button>
+    <div class ="estimate">
+    <img src="assets/star1.png" alt=""><nobr id="count1">waiting for estimate</nobr>
+    <img src="assets/star2.png" alt=""><nobr id="count2">waiting for estimate</nobr>
+    <img src="assets/star3.png" alt=""><nobr id="count3">waiting for estimate</nobr>
+    <img src="assets/star4.png" alt=""><nobr id="count4">waiting for estimate</nobr>
+    <img src="assets/star5.png" alt=""><nobr id="count5">waiting for estimate</nobr></div>
+
+
+  </footer>
 </body>
 </html>
