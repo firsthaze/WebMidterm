@@ -7,6 +7,7 @@ var main = function() {
     number4: 0,
     number5: 0
   });*/
+
   $( ".content" ).hover(function() {
     $(this).toggleClass("rightMove");
   });
