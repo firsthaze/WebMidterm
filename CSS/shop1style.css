@@ -2,24 +2,28 @@ body{
   background-color: #000000;
 }
 
-#backgroundset{
+.backgroundset{
   width:1280px;
   margin-left: auto;
   margin-right: auto;
   background-color: #000000;
+  display: inline-block;
+  float: left;
 }
 
 #logo{
   margin-left: 506px;
   margin-top: 30px;
+  width: 350px;
+  height: 300px;
   display: inline-block;
 }
 
 #mainpic{
    width:1280px;
    margin-top: 0px;
-   display: inline-block;
-   height:241px;
+display: block;
+  height:241px;
 }
 
 #sub{
@@ -27,49 +31,95 @@ body{
   height:598px;
 }
 
-#sidebar{
-  width:260px;
-  height :488px;
-  margin-top: 110px;
-  margin-left: 36px;
+.sidebar{
+  width:880px;
+  height :440px;
+  margin-top: 0px;
+  margin-left: 370px;
   display: inline-block;
   float: left;
+
+}
+
+#title{
+  font-size: 30px;
+  font-weight: bold;
+  color :yellow;
+  font-family: 微軟正黑體;
+}
+
+.line{
+  border : 3px solid #FFFFFF;
+}
+
+.sidebar p{
+  color: white;
+  font-family: 微軟正黑體
+  margin-left: 5px;
+  margin-right: 3px;
+  font-size: 20px;
+}
+
+.borders{
+background: black;
+ width:1280px;
+position: absolute;
+    height:50px;
+    margin-top: -241px;
+    opacity: 0.87;
+
+}
+
+
+.link{
+  margin-top: -10px;
+  float: left;
+  width: 25%;
+  font-family:Ravie;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  text-align:center;
 }
 
 #product_picture{
   width:880px;
-  height:488px;
-  margin-top: 110px;
-  margin-left: 55px;
+  height:400px;
+  margin-top: 20px;
+  margin-left: 110px;
   display: inline-block;
   float: left;
 }
 
 #sub_navigation{
   width:1280px;
-  height:480px;
-  margin-top: 0px;
+  height:488px;
+  margin-top: 20px;
   display: inline-block;
-}
-
-#shop1{
-  margin-left: 36px;
+  float: left;
 }
 
 .sub{
-  width: 1280px;
-  height:140px;
-  margin-top: 100px;
+  width: 260px;
+  height:488px;
+  margin:0;
   display: inline-block;
   float: left;
 }
 
 .shop{
   width:260px;
-  margin-left: 54px;
+  height:122px;
   display: inline-block;
   float: left;
+
 }
+.content{
+    color:white;
+    font-family: 微軟正黑體;
+    font-size: 18px;
+}
+
 .estimate{
   color: white;
   font-size: 30px;
@@ -87,4 +137,9 @@ body{
 }
 .displaynone{
   display: none;
+}
+
+.rightMove{
+  padding-left: 30px;
+
 }

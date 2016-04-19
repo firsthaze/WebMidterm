@@ -1,6 +1,11 @@
+body{
+  background-color: #000000;
+}
 #backgroundset{
   width:1280px;
   background-color: #000000;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #logo{
@@ -28,6 +33,8 @@
   margin-top: 160px;
   display: inline-block;
   float: left;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .shop{

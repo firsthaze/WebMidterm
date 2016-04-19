@@ -1,6 +1,11 @@
+body{
+  background-color: #000000;
+}
 #backgroundset{
   width:1280px;
   background-color: #000000;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #logo{
@@ -18,7 +23,7 @@
 
 #sub_about{
   width: 1280px;
-  height: 795px;
+  height: 600px;
   margin-top: 90px;
   display: inline-block;
 }
@@ -26,25 +31,26 @@
 #side_bar{
   margin-left: 40px;
   width:260px;
-  height:795px;
+  height:450px;
   display: inline-block;
   float: left;
 }
 .us{
 width:890px;
-height:306px;
+height:240px;
 display: inline-block;
 float: left;
 margin-left: 54px;
-margin-bottom: 186px;
+margin-bottom: 100px;
 }
 
 #us_pic{
   width:366px;
-  height:302px;
+  height:240px;
   display: inline-block;
   float:left;
   margin: 0px;
+  border-radius: 40%;
 }
 
 #us_intro{
