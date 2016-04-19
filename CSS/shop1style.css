@@ -40,7 +40,7 @@ display: block;
 }
 
 #title{
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bold;
   color :yellow;
   font-family: 微軟正黑體;
@@ -52,8 +52,10 @@ display: block;
 
 .sidebar p{
   color: white;
+  font-family: 微軟正黑體
   margin-left: 5px;
   margin-right: 3px;
+  font-size: 20px;
 }
 
 .borders{
