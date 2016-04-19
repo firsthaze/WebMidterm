@@ -31,9 +31,9 @@ display: block;
 
 .sidebar{
   width:880px;
-  height :488px;
-  margin-top: 110px;
-  margin-left: 400px;
+  height :440px;
+  margin-top: 0px;
+  margin-left: 370px;
   display: inline-block;
   float: left;
 
@@ -44,6 +44,10 @@ display: block;
   font-weight: bold;
   color :yellow;
   font-family: 微軟正黑體;
+}
+
+.line{
+  border : 3px solid #FFFFFF;
 }
 
 .sidebar p{
@@ -76,9 +80,9 @@ position: absolute;
 
 #product_picture{
   width:880px;
-  height:488px;
-  margin-top: 0;
-  margin-left: 140px;
+  height:400px;
+  margin-top: 20px;
+  margin-left: 110px;
   display: inline-block;
   float: left;
 }
