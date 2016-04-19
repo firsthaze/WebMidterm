@@ -1,28 +1,25 @@
 body{
   background-color: #000000;
+  margin: 0;
 }
 
 .backgroundset{
   width:1280px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 30px;
   background-color: #000000;
   display: inline-block;
-  float: left;
 }
 
 #logo{
-  margin-left: 506px;
-  margin-top: 30px;
+  margin-left: 460px;
   width: 350px;
   height: 300px;
-  display: inline-block;
 }
 
 #mainpic{
    width:1280px;
    margin-top: 0px;
-display: block;
+  display: block;
   height:241px;
 }
 
