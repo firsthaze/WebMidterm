@@ -11,6 +11,7 @@ body{
 }
 
 #logo{
+
   margin-left: 460px;
   width: 350px;
   height: 300px;
@@ -23,18 +24,30 @@ body{
   height:241px;
 }
 
-#sub_about{
-  width: 1280px;
-  height:488px;
-  margin-top:80px;
-  display: inline-block;
+.link{
+  margin-top: 10px;
   float: left;
+  width: 25%;
+  font-family:Ravie;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  text-align:center;
+}
+
+.borders{
+background: black;
+width:1280px;
+position: absolute;
+height:50px;
+margin-top: -241px;
+opacity: 0.87;
 }
 
 #side_bar{
   width: 260px;
   height:488px;
-  margin:0;
+  margin:30px;
   display: inline-block;
   float: left;
   border: 2px solid red;
@@ -43,18 +56,11 @@ body{
 #side_bar p{
   color: #FFFFFF;
   font-family: 微軟正黑體;
-  font-size: 20rpx;
+  font-size: 20px;
 }
 
 #title{
   text-align: center;
-}
-#concept{
-  width: 880px;
-  height:488px;
-  margin-left: 55px;
-  display: inline-block;
-  float: left;
 }
 
 .line{
@@ -63,13 +69,15 @@ body{
   margin-left: 20%;
 }
 
-#introduce{
-  width:400px;
-  heright:350px;
-  margin-left: 300px;
-  display: inline-block;
+#list{
+  width: 550px;
+  display:inline-block;
+  float: left;
+  margin-top: 60px;
+  margin-left: 200px;
 }
 
-#concept p{
-  color: #FFFFFF;
+#list p{
+  color:white;
+  font-size: 50px;
 }
