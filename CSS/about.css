@@ -37,7 +37,7 @@ body{
   margin:0;
   display: inline-block;
   float: left;
-  border: 2px solid #FFFFFF;
+  border: 2px solid red;
 }
 
 #side_bar p{

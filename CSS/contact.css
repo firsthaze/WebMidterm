@@ -9,10 +9,11 @@ body{
 }
 
 #logo{
-  margin-left: 506px;
-  margin-top: 30px;
-  display: inline-block;
+  margin-left: 460px;
+  width: 350px;
+  height: 300px;
 }
+
 
 #mainpic{
    width:1280px;
@@ -29,38 +30,88 @@ body{
 }
 
 #side_bar{
-  margin-left: 40px;
-  width:260px;
-  height:450px;
+  width: 260px;
+  height:540px;
+  margin:0;
   display: inline-block;
   float: left;
+  border: 3px solid red;
 }
+
+#side_bar p{
+  color: #FFFFFF;
+  font-family: 微軟正黑體;
+  font-size: 25px;
+}
+
+#title{
+  text-align: center;
+}
+li{
+  color:white;
+  margin-top: 30px;
+}
+
+.line{
+  border : 2px solid #FFFFFF;
+  width: 60%;
+  margin-left: 20%;
+}
+
 .us{
 width:890px;
 height:240px;
 display: inline-block;
 float: left;
-margin-left: 54px;
-margin-bottom: 100px;
+margin-left: 100px;
+margin-bottom: 50px;
+border:2px solid #FFFFFF;
 }
 
 #us_pic{
   width:366px;
-  height:240px;
+  height:220px;
   display: inline-block;
   float:left;
   margin: 0px;
-  border-radius: 40%;
+}
+
+.us_pic{
+  border-radius: 50%;
+  width:200px;
+  height:200px;
+  margin-left: 30px;
+  margin-top: 15px;
 }
 
 #us_intro{
   width:466px;
-  height:302px;
+  height:240px;
   display: inline-block;
   float:left;
-  margin-left: 54px;
+  margin-left: 0px;
 }
 
 #btn_us{
   margin-bottom: 0px;
+}
+
+.borders{
+background: black;
+width:1280px;
+position: absolute;
+height:50px;
+margin-top: -251px;
+opacity: 0.87;
+}
+
+.link{
+  margin-top: 10px;
+  float: left;
+  width: 25%;
+  font-family:Ravie;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  text-align:center;
 }
