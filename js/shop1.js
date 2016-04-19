@@ -7,7 +7,19 @@ var main = function() {
     number4: 0,
     number5: 0
   });*/
+  $(".link").mouseover(function(){
+    $(this).animate({
 
+        marginTop: "+=10"
+        },
+      50);
+  });
+   $(".link").mouseout(function(){
+      $(this).animate({
+          marginTop: "-=10"
+          },
+        50);
+    });
   $( ".content" ).hover(function() {
     $(this).toggleClass("rightMove");
   });
