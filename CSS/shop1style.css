@@ -120,13 +120,14 @@ opacity: 0.87;
 .estimate{
   color: white;
   font-size: 30px;
-  padding-left: 30px;
+  padding-left: 0px;
   margin-bottom: 100px;
 }
 
 .button{
   width: 100px;
   height: 40px;
+  border: none;
   margin-bottom: 100px;
 }
 .buttonMargin{
@@ -137,12 +138,21 @@ opacity: 0.87;
 }
 
 .rightMove{
-  padding-left: 30px;
+  padding-left: 10px;
 
 }
 
+.score{
+  color:white;
+  font-family: 微軟正黑體;
+  font-size: 18px;
+}
+
+.score p{
+  display: inline-block;
+}
 footer{
   width:1280px;
   margin-left: auto;
   margin-right: auto;
-}
+display: }

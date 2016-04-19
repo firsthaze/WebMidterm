@@ -20,7 +20,7 @@ var main = function() {
           },
         50);
     });
-  $( ".content" ).hover(function() {
+  $( ".shop" ).hover(function() {
     $(this).toggleClass("rightMove");
   });
   $(".estimate").hide();
