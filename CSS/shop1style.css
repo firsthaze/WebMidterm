@@ -5,12 +5,9 @@ body{
 
 .backgroundset{
   width:1280px;
-  height: 1500px;
-
-margin-left: auto;
-margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #000000;
-  display: inline-block;
 }
 
 #logo{
@@ -143,4 +140,10 @@ position: absolute;
 .rightMove{
   padding-left: 30px;
 
+}
+
+footer{
+  width:1280px;
+  margin-left: auto;
+  margin-right: auto;
 }
