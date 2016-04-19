@@ -9,18 +9,16 @@ body{
 }
 
 #logo{
-  margin-left: 506px;
-  margin-top: 30px;
-  display: inline-block;
-  width: 250px;
-  height: 200px
+  margin-left: 460px;
+  width: 350px;
+  height: 300px;
 }
 
 #mainpic{
-   width:1280px;
-   margin-top: 0px;
-   display: inline-block;
-   height:241px;
+  width:1280px;
+  margin-top: 0px;
+ display: block;
+ height:241px;
 }
 
 #sub_shop{
@@ -40,8 +38,31 @@ body{
 }
 
 .shop{
-  width:260px;
-  margin-left: 54px;
-  display: inline-block;
+  width:20%;
+  display: block;
   float: left;
+}
+
+.marginLeft{
+  margin-left: 6.6%;
+}
+.borders{
+background: black;
+width:1280px;
+position: absolute;
+height:50px;
+margin-top: -241px;
+opacity: 0.87;
+}
+
+
+.link{
+  margin-top: 10px;
+  float: left;
+  width: 25%;
+  font-family:Ravie;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  text-align:center;
 }
